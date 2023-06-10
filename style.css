@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  margin: 100px auto 0px;
+  padding: 50px;
+  background: #FFFFFF;
+  width: 85%;
+  border-radius: 10px;
+}
+
+body {
+  background: #eaeaea;
+  font-family: "Roboto", sans-serif;
+}
+.classico{
+  text-align: center;
+}
+.classico figcaption{
+  text-align: end;
+}
+.classico img{
+ /*  border: 1px solid red; */
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.classico h1 {
+  font-size: 28px;
+  text-align: center;
+  color: #1B1B1B;
+  margin-bottom: 30px;
+}
+.ingredientes h2 {
+  font-size: 28px;
+  text-align: center;
+  color: #1B1B1B;
+}
+.ingredientes {
+  margin-top: 30px;
+}
+.ingredientes ul li {
+  font-size: 16px;
+  margin-top: 30px;
+  margin-left: 15px;
+}
+
+.preparo{
+  margin-top: 30px;
+}
+.preparo h2 {
+  font-size: 28px;
+  text-align: center;
+  color: #1B1B1B;
+}
+.preparo ol li{
+  font-size: 16px;
+  margin-top: 30px;
+  margin-left: 15px;
+}
+.informacao h2 {
+  font-size: 28px;
+  text-align: center;
+  color: #1B1B1B; 
+}
+
+.informacao{
+  margin-top: 30px;
+}
+.informacao p{
+  font-size: 16px;
+  margin-top: 30px; 
+}
+
+footer{
+  text-align: center;
+  margin-top: 20px;
+  color: #8F8F8F;
+  font-size: 12px;
+}
